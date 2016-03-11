@@ -26,7 +26,7 @@ int main ()
       if ( marker == '$') {
           //posFlag = 0;
          //cout << "Read a special character $" << endl;
-         iss >> step >> filenum; // In position.txt file sample line ($ 1 1) = ($ step filenum)
+         iss >> step >> filenum; // In position.txt file line beginning with $, ($ 1 1) = ($ step filenum)
          cout << step << "\t" << filenum << endl;
          filename = "postxtfiles/" + filenum + filetype; //postxtfiles is the directory in which i want to save it
          //postxtfiles dir should exist in the current directory in which the program is running
