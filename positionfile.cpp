@@ -7,7 +7,7 @@
 using std::cout;
 using std::endl;
 
-std::ifstream positionfile ("../../SimulationData/position.txt");
+std::ifstream positionfile ("../../SimulationData/position.txt");//sample file is attached
 std::string line;
 
 char marker;
