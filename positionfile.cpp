@@ -28,7 +28,8 @@ int main ()
          //cout << "Read a special character $" << endl;
          iss >> step >> filenum;
          cout << step << "\t" << filenum << endl;
-         filename = "postxtfiles/" + filenum + filetype;
+         filename = "postxtfiles/" + filenum + filetype; //postxtfiles is the directory in which i want to save it
+         //postxtfiles dir should exist in the current directory in which the program is running
          cout << filename << endl;
 
 
